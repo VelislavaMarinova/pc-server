@@ -1,9 +1,10 @@
 const { Schema, Types, model } = require('mongoose');
 
 const userSchema = new Schema({
-    username: {
+    username:{
         type: String,
         required: true,
+        unique: true,
         minLength: [3, 'Username must be at least 3 charachters long!']
     },
     email: {
@@ -17,6 +18,13 @@ const userSchema = new Schema({
     }
 
 
+});
+
+userSchema.index({ username: 1 }, {
+    collation: {
+        locale: 'en',
+        strength: 2
+    }
 });
 
 userSchema.index({ email: 1 }, {

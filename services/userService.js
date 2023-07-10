@@ -8,12 +8,17 @@ const secret = 'q-90234xcwmietvuselrg';
 const tokenBlacklist = new Set();
 
 async function register(username, email, password) {
+    // const existingUsername = await User.findOne({ username }).collation({ locale: 'en', strength: 2 });
+    // if (existingUsername) {
+    //     throw new Error('Username is taken!');
+    // };
     const existing = await User.findOne({ email }).collation({ locale: 'en', strength: 2 });
     if (existing) {
         throw new Error('Email is taken');
     }
 
     const user = await User.create({
+        username,
         email,
         hashedPassword: await bcrypt.hash(password, 10)
     });
@@ -42,12 +47,14 @@ async function logout(token) {
 function createToken(user) {
     const payload = {
         _id: user._id,
+        username: user.username,
         email: user.email
     };
 
     return {
         _id: user._id,
         email: user.email,
+        username: user.username,
         accessToken: jwt.sign(payload, secret)
     };
 }

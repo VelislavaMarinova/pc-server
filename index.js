@@ -8,7 +8,7 @@ const trimBody = require('./middlewares/trimBody');
 const session = require('./middlewares/session');
 
 
-const connectionString = 'mongodb://localhost:27017/pc-base';
+const connectionString = 'mongodb://localhost:27017/pc-db';
 
 start();
 
@@ -24,7 +24,7 @@ async function start() {
     app.use(session());
 
     app.get('/', (req, res) => {
-        res.json({ message: 'PC server is working' });
+        res.json({ message: 'REST service operational' });
     });
 
     app.use('/users', authController);
