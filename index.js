@@ -28,7 +28,7 @@ async function start() {
     });
 
     app.use('/users', authController);
-    app.use('/data/catalog', dataController);
+    app.use('/data/recipes', dataController);
 
     app.listen(3000, () => console.log('PC server is listening on port 3000...'));
 }
