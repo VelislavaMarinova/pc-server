@@ -17,8 +17,14 @@ dataController.get('/', async (req, res) => {
 });
 
 dataController.post('/', hasUser(), async (req, res) => {
+
     try {
-        const data = Object.assign({ _ownerId: req.user._id }, req.body);
+        // const data = Object.assign({ _ownerId: req.user._id}, req.body);
+        const data = {
+            ...req.body,
+            _ownerId: req.user._id,
+             author: req.user.username
+        };
         const item = await create(data);
         res.json(item);
     } catch (err) {
