@@ -1,6 +1,6 @@
 const { Schema, model, Types: { ObjectId }, Types } = require('mongoose');
 
-
+const URL_PATTERN = /^https?:\/\/.+/i;
 const itemSchema = new Schema({
     title: {
         type: String,
@@ -39,7 +39,11 @@ const itemSchema = new Schema({
     ],
     imageUrl: {
         type: String,
-        required: [true, 'Image URL is required']
+        required: [true, 'Image URL is required'],
+        validate: {
+            validator: (value) => URL_PATTERN.test(value),
+            message: 'ImageUrl is not valid',
+        }
     },
     method: [
         { type: String }
