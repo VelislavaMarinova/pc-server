@@ -8,10 +8,10 @@ const secret = 'q-90234xcwmietvuselrg';
 const tokenBlacklist = new Set();
 
 async function register(username, email, password) {
-    // const existingUsername = await User.findOne({ username }).collation({ locale: 'en', strength: 2 });
-    // if (existingUsername) {
-    //     throw new Error('Username is taken!');
-    // };
+    const existingUsername = await User.findOne({ username }).collation({ locale: 'en', strength: 2 });
+    if (existingUsername) {
+        throw new Error('Username is taken!');
+    };
     const existing = await User.findOne({ email }).collation({ locale: 'en', strength: 2 });
     if (existing) {
         throw new Error('Email is taken');
