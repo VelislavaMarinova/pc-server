@@ -1,15 +1,26 @@
 const dataController = require('express').Router();
 
 const { hasUser } = require('../middlewares/guards');
-const { getAll, create, getById, update, deleteById, getByUserId } = require('../services/itemService');
+const { getAll, create, getById, update, deleteById, getByUserId, getByCategory } = require('../services/itemService');
 const { parseError } = require('../util/parser');
 
 
 dataController.get('/', async (req, res) => {
     let items = [];
     if (req.query.where) {
-        const userId = JSON.parse(req.query.where.split('=')[1]);
-        items = await getByUserId(userId);
+        console.log(req.query.where);
+
+        const where = req.query.where.split('=')[0]
+        console.log(where);
+        if (where === '_ownerId') {
+            const userId = JSON.parse(req.query.where.split('=')[1]);
+            items = await getByUserId(userId);
+        }else if(where === 'category'){
+            
+            const category = JSON.parse(req.query.where.split('=')[1]);
+            items = await getByCategory(category);
+        }
+
     } else {
         items = await getAll();
     }
@@ -23,7 +34,7 @@ dataController.post('/', hasUser(), async (req, res) => {
         const data = {
             ...req.body,
             _ownerId: req.user._id,
-             author: req.user.username
+            author: req.user.username
         };
         const item = await create(data);
         res.json(item);
