@@ -18,6 +18,6 @@
 9.	My recipes (GET): http://localhost:3000/data/catalog?where=_ownerId%3D%22{userId}%22
 10.	My recipes (GET): http://localhost:3000/data/catalog?where=category%3D%22{category}%22
 	# endpoints category collection
-All categories (GET): http://localhost:3000/data/categories
-Create category (POST): http://localhost:3000/data/categories
+1. All categories (GET): http://localhost:3000/data/categories
+2. Create category (POST): http://localhost:3000/data/categories
 
