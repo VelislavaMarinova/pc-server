@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('./middlewares/cors');
 const authController = require('./controllers/authController');
 const dataController = require('./controllers/dataController');
+const categoryController = require('./controllers/categoryController')
 const trimBody = require('./middlewares/trimBody');
 const session = require('./middlewares/session');
 
@@ -29,6 +30,7 @@ async function start() {
 
     app.use('/users', authController);
     app.use('/data/recipes', dataController);
+    app.use('/data/categories', categoryController);
 
     app.listen(3000, () => console.log('PC server is listening on port 3000...'));
 }
