@@ -1,7 +1,15 @@
 const dataController = require('express').Router();
 
 const { hasUser } = require('../middlewares/guards');
-const { getAll, create, getById, update, deleteById, getByUserId, getByCategory } = require('../services/itemService');
+const { 
+    getAll, 
+    create, 
+    getById, 
+    update, 
+    deleteById, 
+    getByUserId, 
+    getByCategory
+ } = require('../services/itemService');
 const { parseError } = require('../util/parser');
 
 

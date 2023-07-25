@@ -1,0 +1,248 @@
+[{
+  "_id": {
+    "$oid": "64b58b264575c3bf639504b9"
+  },
+  "title": "Celeriac & potato gratin",
+  "category": "main-dishes",
+  "dificulty": "easy",
+  "prepare": "30 mins",
+  "cook": "1 hr and 50 mins",
+  "serves": "Serves 8",
+  "description": "In this indulgent side dish, vegetables are layered up with a creamy sauce, caramelised onions, and flavours of nutmeg, garlic and thyme",
+  "ingredients": [
+    "50g butter, plus extra for greasing",
+    "2 large onions, halved and thinly sliced",
+    "1 tsp golden caster sugar",
+    "500ml milk",
+    "good grating of nutmeg",
+    "2 garlic cloves, finely chopped",
+    "5 thyme sprigs, chopped",
+    "300ml pot double cream",
+    "1 celeriac(about 450g), peeled",
+    "1 1/2kg even-sized potatoes",
+    "50g finely grated parmesan(or vegetarian alternative)"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/celeriac-potato-gratin-40ecb61.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "Heat oven to 180C/160C fan/gas 4 and grease a shallow ovenproof dish about 35 x 24cm. Melt the butter in a non-stick frying pan, add the onions and fry for 10 mins, stirring frequently, until soft and starting to turn golden. Sprinkle over some seasoning and the sugar, stir again, then cook 5-10 mins more until golden. Meanwhile, heat the milk with the nutmeg, garlic, thyme and seasoning. When the mixture starts to boil, pour in the cream and turn off the heat.",
+    "Quarter the celeriac and thinly slice, then arrange in the base of the dish. Pour over half the milk mixture, then spoon over the golden onions. Thinly slice the ends of the potatoes, reserving the middles. Pile the sliced potatoes into the dish, then thinly slice the reserved middle sections and arrange neatly on top. (By cutting the potatoes this way, you should have neat slices roughly all the same size for the top of the gratin.) Pour over the remaining milk mixture, scatter over the Parmesan and bake for 1 hr 30 mins until a knife easily cuts through the layers. Allow to rest for 10 mins before serving to allow the creamy sauce to soak into the potatoes."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b58eae4575c3bf639504bb"
+  },
+  "title": "Christmas pudding with citrus & spice",
+  "category": "desserts",
+  "dificulty": "easy",
+  "prepare": "30 mins plus soaking overnight",
+  "cook": "6 hrs",
+  "serves": "Makes 10",
+  "description": "A fruity pud, served with orange custard cream, makes the perfect end to the traditional Christmas meal",
+  "ingredients": [
+    "175g each raisin, currants and sultanas",
+    "140g whole glac 1/2 cherry",
+    "50g mixed peel",
+    "50g whole blanched almond",
+    "zest 1 orangeand 1 lemon",
+    "1 medium carrot, peeled and finely grated",
+    "150ml brandy",
+    "50ml/2fl oz orangeliqueur, such as Grand Marnier",
+    "175g light muscovado sugar",
+    "175g fresh white breadcrumb",
+    "125g self-raising flour",
+    "1 tsp mixed spice",
+    "1/2 tsp grated nutmeg",
+    "175g butter, frozen",
+    "2 eggs, beaten",
+    "butter, for greasing",
+    "hollysprig, to decorate"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-444460_11-faf7617.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "Mix the fruit, almonds, citrus zests and the carrot with the brandy and orange liqueur in a large mixing bowl. Cover and leave to soak overnight.",
+    "Mix all the dry ingredients together, then add to the soaked fruit mixture. Grate in the butter, then add the eggs and stir. Don’t forget to make a wish!",
+    "Grease a 1.5-litre pudding basin with butter and line the base with greaseproof paper. Spoon in the mixture, press down well and make a hollow with the back of the spoon in the centre. Cover the surface with a round of greaseproof paper, then cover the bowl with double-thickness greaseproof paper and foil and tie at the rim with string. Lower the pudding into a pan with an upturned saucer in the base, then fill with water until it comes halfway up the sides of the bowl. Steam for 6 hrs, topping up with water as necessary.",
+    "Alternatively, steam in the oven. Stand the pudding basin in a roasting tin filled with water, then cover with a tent of foil and cook for the same length of time at 160C/fan 140C/gas 3. Check roasting tin occasionally as the water may need to be topped up.",
+    "To store, allow to cool, then store in a cool, dry cupboard. The pudding will keep for up to a year.",
+    "On the day, steam for 1 hr before turning out, decorating with holly and serving with extra-thick double cream or vanilla ice cream. Alternatively, try my Orange custard cream (below)."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b58f3e4575c3bf639504bd"
+  },
+  "title": "Christmas mess",
+  "category": "desserts",
+  "dificulty": "easy",
+  "prepare": "10 mins",
+  "cook": "5 mins",
+  "serves": "Serves 8",
+  "description": "Delicious and a synch to make! Have made this a couple o",
+  "ingredients": [
+    "600ml double cream",
+    "400g Greek yoghurt",
+    "4 tbsp lemon curd",
+    "1 x 500g bag frozen mixed berries(we used Sainsbury's Black Forest fruits)",
+    "4 tbsp icing sugar",
+    "2 tbsp cassis(optional)",
+    "1 pinch cinnamon",
+    "8 meringuenests"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1163480_10-f4113c0.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "In a small saucepan gently heat the frozen berries, icing sugar and cinnamon until the sugar has dissolved. Remove from the heat, stir in the cassis, if using, and set aside to cool completely.",
+    "Whip the doublecream and Greek yogurt until just holding it’s shape, ripple through the lemoncurd. Break the meringue nests into a glass bowl, or 8 individual glasses. Spoon over half the cream, then half the berries. Repeat with the remaining cream and berries. Serve immediately."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64baf2ec4f706b785276cdd4"
+  },
+  "title": "Fried rice with egg & ginger",
+  "category": "quick-recipes",
+  "dificulty": "easy",
+  "prepare": "15 mins",
+  "cook": "15 mins",
+  "serves": "Serves 4",
+  "description": "Delicious egg fried rice is dotted with juicy prawns and makes a great addition to a Chinese feast",
+  "ingredients": [
+    "3 tbsp sunflower oil",
+    "100g ginger, finely sliced",
+    "50g garlic, finely sliced",
+    "100g small peeled cooked prawn",
+    "bunch spring onions, whites and greens separated and sliced",
+    "3 eggs, beaten",
+    "600g cooked rice(300g/11oz uncooked)",
+    "50ml rice wine or dry sherry",
+    "50ml light soy sauce"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-837627_11-8009fb2.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "Heat the oil in a wok. Add the ginger and garlic, then stir-fry briefly until just coloured. Add the prawns and the whites of the spring onions, and cook for a further 3 mins. Pour in the beaten egg, let it set for a couple of secs, then break it up and stir well to scramble. Add the cooked rice and stir-fry everything together for 10 mins. Add the rest of the spring onions, rice wine and soy, then toss everything together well. Serve immediately."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64baf3444f706b785276cdd8"
+  },
+  "title": "Spiced vegetable biryani",
+  "category": "healthy-recipes",
+  "dificulty": "easy",
+  "prepare": "1 hr",
+  "cook": "Takes 50 minutes - 1 hour",
+  "serves": "Serves 6",
+  "description": "This simple vegetarian curry, full of fresh Indian flavours, is quick to make and cooks in a single pot",
+  "ingredients": [
+    "2 tbsp vegetable oil",
+    "1 small cauliflower, broken into small florets",
+    "2 large sweet potatoes, peeled and cubed",
+    "1 large onion, sliced",
+    "1l hot vegetable stock",
+    "3 tbsp hot curry paste (Madras is good)",
+    "1 red chilli, seeded and finely chopped",
+    "large pinch of saffron strands",
+    "2 tsp mustard seed (black or white)",
+    "500g basmati rice",
+    "140g trimmed green bean, halved",
+    "2 lemons, juice only",
+    "a handful of fresh coriander leaves",
+    "50g packet salted roasted cashew nuts",
+    "poppadums and raita, to serve"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-52263_11-18dde7a.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "Preheat the oven to 220C/gas 7/fan 200C. Pour the oil into a large roasting tin or ovenproof dish and put in the oven for a couple of minutes to heat through. Add all the vegetables to the tin, except the beans, stirring to coat them in the hot oil. Season with salt and pepper and return to the oven for 15 minutes until beginning to brown.",
+    "While the vegetables are roasting, stir together the stock, curry paste, chilli, saffron and mustard seeds.",
+    "Mix the rice and green beans with the vegetables in the tin, then pour over the stock mixture. Lower the oven to 190C/gas 5/fan 190C. Cover the dish tightly with foil and bake for 30 minutes until the rice is tender and the liquid has been absorbed. Stir in the lemon juice and check the seasoning, then scatter over the coriander and cashew nuts. Serve with a pile of poppadums and a bowl of raita."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64baf3604f706b785276cdda"
+  },
+  "title": "Roast turkey breast wrapped in bacon",
+  "category": "main-dishes",
+  "dificulty": "easy",
+  "prepare": "30 mins",
+  "cook": "No cook",
+  "serves": "Serves 2",
+  "description": "It is a total cheat, but looks great on a plate, is so delicious and, like many others have said.",
+  "ingredients": [
+    "drizzle of vegetable oil, plus extra for greasing",
+    "1 onion, chopped",
+    "24 rashers smoked streaky bacon",
+    "2 tbsp fresh breadcrumbs",
+    "400g pack sausages(we used pork & leek), meat squeezed from the skins",
+    "8 sage leaves, chopped, plus a few small leaves to serve",
+    "250g cranberry sauce, see goes well with for recipe or buy a good-quality jar",
+    "450g turkey breast steaks"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy-slice-christmas-dinner-parcel-e72e779.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "Heat a drizzle of oil in a frying pan, and use a little more to grease a 900g loaf tin. Put the onion in the pan and cook gently for 10-15 mins until caramelised. Tip into a large bowl and set aside to cool. Line the loaf tin with a double strip of foil, leaving plenty overhanging either end (you can use this as a handle to remove the parcel once cooked).",
+    "Stretch each piece of bacon a little with the back of your knife. Arrange the rashers so the base of the tin is covered with overlapping bacon and the rashers come neatly up the sides in a single layer, overhanging generously. Sprinkle the breadcrumbs on top of the bacon.",
+    "Once the onion has cooled, add the sausagemeat and sage to the bowl. Mix everything together, then pack half the mixture into the tin. Spread over about a third of the cranberry sauce.",
+    "Cut each turkey breast steak into three strips. Layer roughly half the turkey on top of the stuffing mix, filling any gaps like a jigsaw, but keeping the turkey in one thick layer, then season. Spread over a little more cranberry sauce, then top with the remaining stuffing, cranberry sauce and turkey in the same way, making sure there are no gaps between the layers. The parcel should be full to the top when you’re finished. Fold over the overhanging bacon and wrap the tin in foil. Can now be chilled for up to 2 days.",
+    "Heat oven to 180C/160C fan/gas 4. Put the tin on a baking tray and cook for 1 hr 30 mins. Remove the tin from the oven and leave to cool for 10 mins. Carefully lift the parcel out of the tin, using the foil handles. Roll the parcel over onto a baking tray. Return to the oven for a further 15-20 mins until the outside is crisp and browning. Test the internal temperature with a thermometer, if you have one – it should read 75C when it’s ready. Or insert a metal skewer into the centre of the parcel and check it is piping hot. Cover loosely with foil and leave to rest for at least 15 mins before serving. Top with the reserved sage leaves, then slice. Leftovers will keep in the fridge for 2 days."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64baf3934f706b785276cddc"
+  },
+  "title": "Snowball cocktail",
+  "category": "drinks",
+  "dificulty": "easy",
+  "prepare": "10 mins",
+  "cook": "10 mins",
+  "serves": "Makes 4 x 125-150ml glasses",
+  "description": "White tasty drink",
+  "ingredients": [
+    "100ml golden caster sugar",
+    "a handful of sliced ginger",
+    "100ml advocaat",
+    "100ml ginger syrup",
+    "Babycham, to top up the glass"
+  ],
+  "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/nancys-snowball-117cfe6.jpg?quality=90&webp=true&resize=300,272",
+  "method": [
+    "First make a ginger syrup. Combine 100ml water with the golden caster sugar and a handful of sliced ginger in a pan and bring to the boil. Cool the mixture and strain through a sieve.",
+    "Fill a highball glass with ice and pour the advocaat and ginger syrup into a cocktail shaker. Shake well, pour into the glasses, top with Babycham and serve."
+  ],
+  "author": "Marina",
+  "_ownerId": {
+    "$oid": "64b57e3534743dbb1ea9101c"
+  },
+  "__v": 0
+}]
