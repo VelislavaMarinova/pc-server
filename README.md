@@ -1,9 +1,9 @@
 # pc-server
 1. install MongoDB
 2. install dependencies: npm install
-3. import data to MongoDB Compass:
+3. import data to MongoDB Compass to db-name: "pc-db"
 	- items: https://github.com/marvelannabell/pc-server/blob/main/pc-db.items.json
- 	- https://github.com/marvelannabell/pc-server/blob/main/pc-db.categories.json
+ 	- categories: https://github.com/marvelannabell/pc-server/blob/main/pc-db.categories.json
 5. run server: npm start
    server is listening on port: 3000
    
