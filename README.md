@@ -5,7 +5,7 @@
 	- items: https://github.com/marvelannabell/pc-server/blob/main/pc-db.items.json
  	- categories: https://github.com/marvelannabell/pc-server/blob/main/pc-db.categories.json
 5. run server: npm start
-   server is listening on port: 3000
+    6. server is listening on port: 3000
    
 # endpoints user collection
 1.	Register User (POST): http://localhost:3000/users/register
