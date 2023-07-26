@@ -1,34 +1,37 @@
 const dataController = require('express').Router();
 
 const { hasUser } = require('../middlewares/guards');
-const { 
-    getAll, 
-    create, 
-    getById, 
-    update, 
-    deleteById, 
-    getByUserId, 
-    getByCategory
- } = require('../services/itemService');
+const {
+    getAll,
+    create,
+    getById,
+    update,
+    deleteById,
+    getByUserId,
+    getByCategorySortedByDate,
+    getLatestByLimit
+} = require('../services/itemService');
 const { parseError } = require('../util/parser');
 
 
 dataController.get('/', async (req, res) => {
+    
     let items = [];
     if (req.query.where) {
-        console.log(req.query.where);
 
         const where = req.query.where.split('=')[0]
-        console.log(where);
+       
         if (where === '_ownerId') {
             const userId = JSON.parse(req.query.where.split('=')[1]);
             items = await getByUserId(userId);
-        }else if(where === 'category'){
-            
+        } else if (where === 'category') {
+
             const category = JSON.parse(req.query.where.split('=')[1]);
-            items = await getByCategory(category);
+            items = await getByCategorySortedByDate(category);
         }
 
+    } else if (req.query.limit) {
+        items = await getLatestByLimit(req.query.limit)
     } else {
         items = await getAll();
     }
@@ -38,7 +41,6 @@ dataController.get('/', async (req, res) => {
 dataController.post('/', hasUser(), async (req, res) => {
 
     try {
-        // const data = Object.assign({ _ownerId: req.user._id}, req.body);
         const data = {
             ...req.body,
             _ownerId: req.user._id,
