@@ -18,7 +18,7 @@
 7.	Update recipe (PUT): http://localhost:3000/data/recipe/:id
 8.	Delete recipe (DELETE):  http://localhost:300/data/recipes/:id
 9.	Get recipes created by user (GET): http://localhost:3000/data/recipes?where=_ownerId%3D%22{userId}%22
-10.	Get recipes by category (GET): http://localhost:3000/data/recipes?where=category%3D%22{category}%22
+10.	Get recipes by category sorted by date (GET): http://localhost:3000/data/recipes?where=category%3D%22{category}%22
 11.	Get recipes by limit http://localhost:3000/data/recipes?limit={number}
 	# endpoints category collection
 1. All categories (GET): http://localhost:3000/data/categories
