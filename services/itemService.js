@@ -29,8 +29,17 @@ async function create(item) {
 async function update(id, item) {
     const existing = await Item.findById(id);
 
-    existing.make = item.make;
-    existing.model = item.model;
+    existing.title = item.title;
+    existing.category = item.category;
+    existing.dificulty = item.dificulty;
+    existing.prepare = item.prepare;
+    existing.cook = item.cook;
+    existing.serves = item.serves;
+    existing.description = item.description;
+    existing.ingredients = item.ingredients;
+    existing.imageUrl = item.imageUrl;
+    existing.method = item.method;
+
     
     return existing.save();
 }

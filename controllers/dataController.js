@@ -15,12 +15,12 @@ const { parseError } = require('../util/parser');
 
 
 dataController.get('/', async (req, res) => {
-    
+
     let items = [];
     if (req.query.where) {
 
         const where = req.query.where.split('=')[0]
-       
+
         if (where === '_ownerId') {
             const userId = JSON.parse(req.query.where.split('=')[1]);
             items = await getByUserId(userId);
@@ -75,6 +75,7 @@ dataController.put('/:id', hasUser(), async (req, res, next) => {
 });
 
 dataController.delete('/:id', hasUser(), async (req, res) => {
+
     const item = await getById(req.params.id);
     if (req.user._id != item._ownerId) {
         return res.status(403).json({ message: 'You cannot modify this record' });
