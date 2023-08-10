@@ -9,9 +9,14 @@ async function getByUserId(userId) {
     return Item.find({ _ownerId: userId });
 }
 
-async function getByCategory(category){
-    return Item.find({ category: category });
+async function getByCategorySortedByDate(category){
+    return Item.find({ category: category }).sort({ createdAt: -1 });
 }
+async function getLatestByLimit(limit){
+    return Item.find({}).sort({ createdAt: -1 }).limit(limit);
+}
+
+
 
 async function getById(id) {
     return Item.findById(id);
@@ -24,14 +29,18 @@ async function create(item) {
 async function update(id, item) {
     const existing = await Item.findById(id);
 
-    existing.make = item.make;
-    existing.model = item.model;
-    // existing.year = item.year;
-    // existing.description = item.description;
-    // existing.price = item.price;
-    // existing.img = item.img;
-    // existing.material = item.material;
+    existing.title = item.title;
+    existing.category = item.category;
+    existing.dificulty = item.dificulty;
+    existing.prepare = item.prepare;
+    existing.cook = item.cook;
+    existing.serves = item.serves;
+    existing.description = item.description;
+    existing.ingredients = item.ingredients;
+    existing.imageUrl = item.imageUrl;
+    existing.method = item.method;
 
+    
     return existing.save();
 }
 
@@ -47,5 +56,6 @@ module.exports = {
     create,
     update,
     deleteById,
-    getByCategory
+    getByCategorySortedByDate,
+   getLatestByLimit
 };

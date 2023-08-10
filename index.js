@@ -15,7 +15,7 @@ start();
 
 async function start() {
     await mongoose.connect(connectionString);
-    console.log('Database connected');
+    // console.log('Database connected');
 
     const app = express();
 
