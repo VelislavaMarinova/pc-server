@@ -20,7 +20,14 @@
 9.	Get recipes created by user (GET): http://localhost:3000/data/recipes?where=_ownerId%3D%22{userId}%22
 10.	Get recipes by category sorted by date (GET): http://localhost:3000/data/recipes?where=category%3D%22{category}%22
 11.	Get recipes by limit http://localhost:3000/data/recipes?limit={number}
-	# endpoints category collection
+# endpoints category collection
 1. All categories (GET): http://localhost:3000/data/categories
 2. Create category (POST): http://localhost:3000/data/categories
+   # endpoints pagination
+http://localhost:3000/data/recipes?page=1&perPage=10
+ orr add page and perPage dynamically:http://localhost:3000/data/recipes?page={1}&perPage={10}
+   # endpoints where-category and pagination
+   http://localhost:3000/data/recipes?where=category%3D%22{category}%22&page=1&perPage=10
+   orr add page and perPage dynamically: http://localhost:3000/data/recipes?where=category%3D%22{category}%22&page={number}&perPage={number}
+  
 
