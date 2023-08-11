@@ -25,7 +25,7 @@
 2. Create category (POST): http://localhost:3000/data/categories
    # endpoints pagination
 http://localhost:3000/data/recipes?page=1&perPage=10
- orr add page and perPage dynamically:http://localhost:3000/data/recipes?page={1}&perPage={10}
+ orr add page and perPage dynamically:http://localhost:3000/data/recipes?page={number}&perPage={number}
    # endpoints where-category and pagination
    http://localhost:3000/data/recipes?where=category%3D%22{category}%22&page=1&perPage=10
    orr add page and perPage dynamically: http://localhost:3000/data/recipes?where=category%3D%22{category}%22&page={number}&perPage={number}
