@@ -427,6 +427,90 @@
     },
     "__v": 0,
     "createdAt":"2023-08-07"
+  }, 
+  {
+    "_id": {
+      "$oid": "64baf3934f706b745286cdt"
+    },
+    "title": "Squashed baby potatoes with rosemary",
+    "category": "main-dishes",
+    "dificulty": "easy",
+    "prepare": "15 mins",
+    "cook": "1 hr",
+    "serves": "Serves 8",
+    "description": "Lighter than your average roastie, these roasted new potatoes make a healthy addition to your Christmas plate.",
+    "ingredients": ["1 kg unpeeled salad or new potatoes- you want about 40", "3 tbsp olive oil", "lots of little rosemarysprigs"],
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-464745_11-862b102.jpg?quality=90&webp=true&resize=300,272",
+    "method": ["Boil the potatoes for 10 mins until tender, then drain. Heat oven to 200C/180C fan/ gas 6. Drizzle half the oil over a flat, sturdy baking tray or baking dish. Using a potato masher, squash a sprig of rosemary into each potato on the tray so the masher leaves its mark and the potato splits around the edges. Drizzle the potatoes with the remaining oil, season with sea salt and roast for 50 mins or until golden around the edges."],
+    "author": "Annabell_",
+    "_ownerId": {
+      "$oid": "64d68630e89c2104805be3f7"
+    },
+    "__v": 0,
+    "createdAt":"2023-08-10"
+  },
+  {
+    "_id": {
+      "$oid": "64baf3934f706b745286cda"
+    },
+    "title": "Roast turkey with pecan, sausage & chestnut stuffing & roast shallots",
+    "category": "main-dishes",
+    "dificulty": "hard",
+    "prepare": "35 mins",
+    "cook": "3 hrs and 25 mins",
+    "serves": "Serves 8",
+    "description": "This traditional bird is served with classic sage & onion flavours and given a glossy finish with a sweet glaze.",
+    "ingredients": ["5-5 kg/11-12lb turkey", "1 lemon", "4 shallots, halved", "sprig each sage and thyme, plus extra for serving", "25g softened butter, plus 1 tbsp for the glaze", "2 medium onions, each cut into 6 thick wedges", "50g pecan", "2 tbsp olive oil", "25g butter", "3 shallots, chopped", "2 garlic cloves, finely chopped", "140g cooked chestnut, finely chopped", "450g good-quality pork sausage", "140g fresh white breadcrumb", "2 tbsp chopped parsley", "2 tsp chopped thyme leaf", "2 tsp finely chopped sage", "1 egg, beaten", "2 tbsp clear honey", "2 tsp grainy mustard", " tsp soy sauce", "12 shallots, halved lengthways, or left whole if small", "1 tbsp olive or rapeseed oil", "thyme and sagesprigs", "1 heaped tbsp plain flour", "1.2l turkey or chicken stock"],
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-833473_11-35a997d.jpg?quality=90&webp=true&resize=300,272",
+    "method": ["Heat oven to 180C/160C fan/gas 4. Rinse the turkey inside and out, then pat dry with kitchen paper. Weigh it to calculate the cooking time, allowing 40 mins per kg for the first 4kg, then 45 mins for each 1kg over that weight. Finely grate 1 tsp zest from the lemon and set aside for the stuffing. Cut the lemon into 4-6 wedges and tuck into the turkey cavity with the shallots and herb sprigs. Rub the turkey all over with the butter, then season with salt and pepper. Put the onion wedges in the middle of a large roasting tin and sit the turkey on top. Cover with a loose tent of foil, then roast following your calculated time.", "Make the stuffing. Chop just over half the pecans and reserve the remaining. Line the base of a baking tray or sheet (big enough to take 16 stuffing balls) with baking parchment. Heat the oil and butter in a frying pan, tip in the shallots and garlic, and fry for a few mins until softened. Stir in the chestnuts and chopped pecans, then tip into a large bowl and cool. Squeeze the sausages from their casings and add to the bowl with the nut mixture. Add the remaining stuffing ingredients, including the reserved lemon zest, and season with salt and pepper. Shape the stuffing mixture into 16 balls. Break the remaining pecans into big pieces and press a piece into top of each ball. Arrange balls on the prepared tray, cover with buttered baking parchment and chill until ready to cook. Can be made 1 day ahead and chilled.", "Make the glaze. Mix the honey, mustard, remaining 1 tbsp butter and soy sauce in a small bowl and set aside. Thirty mins before the end of the cooking time, remove the turkey and increase oven to 200C/180C fan/gas 6. Remove the foil, then return the bird to the oven for a further 10 mins. Remove again, brush the turkey with the glaze, then roast for another 20 mins until golden. If you are roasting potatoes, put them in now. To test if the turkey is cooked, pierce the fattest part of the thigh with a skewer the juices should run clear, not pink. If they are pink, continue to roast, checking at 10 min intervals.", "Remove the turkey from the oven, transfer to a warm serving platter and rest, covered loosely with foil so it doesnt stick to the glaze, for up to 1 hr before carving. Meanwhile, cook the stuffing balls and shallots. Increase oven to 220C/200C fan/gas 7. Bake stuffing balls in the oven for 25-30 mins, removing the paper for the last 5 mins if they need browning.", "Make the shallots. Put the shallots in a small roasting tin, toss in the oil, scatter over a few thyme and sage sprigs, and season with salt and pepper. Roast for 25-30 mins, turning half way, until shallots are nicely caramelised.", "Make the gravy. Pour off any excess fat from the roasting tin but leave the juices and onions. Sprinkle in the flour, set tin over a medium heat and cook, stirring for a couple of mins to cook the flour, scraping up any sticky bits from the bottom of the tin. Gradually pour in the stock, along with any resting juices from the turkey, and continue to stir until slightly thickened. Simmer gently for about 10-15 mins or until reduced to your liking. Season with salt and pepper if needed. Strain gravy into a pan, warm through, pour into a jug and serve with the turkey. Serve the turkey surrounded with stuffing balls, roasted shallots, and thyme and sage sprigs."],
+    "author": "Annabell_",
+    "_ownerId": {
+      "$oid": "64d68630e89c2104805be3f7"
+    },
+    "__v": 0,
+    "createdAt":"2023-08-10"
+  },
+  {
+    "_id": {
+      "$oid": "64baf3934f706b745286cdg"
+    },
+    "title": "Turkey, thyme & leek meatloaf",
+    "category": "main-dishes",
+    "dificulty": "easy",
+    "prepare": "10 mins",
+    "cook": "20 mins",
+    "serves": "Serves 4",
+    "description": "A yummy meatloaf that is perfect for a midweek meal",
+    "ingredients": ["1 tbsp sunflower oil", "4 large leeks, sliced", "500g pack turkey mince", "2 sprigs thyme, leaves removed", "85g fresh breadcrumb", "1 egg, beaten", "2 rashers lean back bacon, fat trimmed, chopped"],
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4338_11-24deb89.jpg?quality=90&webp=true&resize=300,272",
+    "method": ["Heat oven to 220C/fan 200C/gas 7. Heat the oil in a frying pan, then soften the leeks for 5 mins. Line the base of a 28 x 18cm baking tin with greaseproof paper.", "Mix the mince, thyme, two-thirds of the breadcrumbs, leeks and egg together with a little seasoning, then tip into the tin. Press the mixture firmly into the tin, then ruffle the surface with a fork. Mix the remaining breadcrumbs and bacon together and scatter over the top. Cook for 15 mins, then finish under the grill until golden and crisp on top. Serve with boiled potatoes and carrots."],
+    "author": "Annabell_",
+    "_ownerId": {
+      "$oid": "64d68630e89c2104805be3f7"
+    },
+    "__v": 0,
+    "createdAt":"2023-08-10"
+  },
+  {
+    "_id": {
+      "$oid": "64baf3934f706b745286cds"
+    },
+    "title": "Roast fillet of beef with mushroom stuffing",
+    "category": "main-dishes",
+    "dificulty": "medium",
+    "prepare": "30 mins",
+    "cook": "1 hr",
+    "serves": "Serves 6 with leftovers",
+    "description": "Serve up a spectacular centrepiece of roast beef with a rich stuffing, and a clever twist on Yorkshire puddings",
+    "ingredients": ["25g dried porcini mushrooms", "400g wild mushroom", "200g shallots", "knob of butter, plus extra for roasting", "2 tbsp olive oil", "1 garlic clove, crushed", "2 thymesprigs", "1 kg/3lb 5oz beef fillet", "1 tbsp plain flour", "3 tbsp brandy", "400ml hot beef stock", "2 tsp wholegrain mustard", "2 tbsp crme frache", "handful parsley, chopped"],
+    "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-411525_11-82c280e.jpg?quality=90&webp=true&resize=300,272",
+    "method": ["Tip the porcini into a bowl and pour over 250ml boiling water. Leave for 20 mins to soften and plump up, scoop out the mushrooms with a slotted spoon and finely chop, then strain the liquid (leaving behind the last drop as it might contain grit) and set aside.", "Set aside about half the wild mushrooms, choosing those with the best shape, then finely chop the remainder. Chop 1 shallot very finely. Heat a large frying pan, add the butter and 1 tbsp olive oil, then cook the chopped shallot and garlic over a medium heat for 3-5 mins until softened. Tip in the chopped porcini and stir around the pan for 2 mins. Add the chopped mushrooms to the frying pan along with the thyme sprigs. Cook for 10 mins until lightly browned and any liquid has evaporated. Leave to cool.", "Place the beef on a board. Take a sharp knife and make a slice lengthways along the fillet, about one-third of the way down, so it folds out like a book. One side of the beef should now be thicker than the other. Make another lengthways slice along the thick half of beef so the beef unfolds to a flat, evenly thick piece of meat, about the size of an A4 page. Spread the mushroom mixture all over the beef and season really well. Tightly roll up the beef to reform into a log and tie about 8 pieces of string around to secure well.", "Heat oven to 200C/180C fan/gas 6. Place a large heavy-based roasting tin over a high heat on the hob (ensure that it will fit in your oven beforehand). Heat some more butter and the other 1 tbsp oil in the tin, then fry the beef, turning every couple of mins, until well browned all over. This will take about 10 mins.", "Tip the whole shallots into the tin around the beef and toss them in the oil. Roast for 20-25 mins for rare, 35 mins for medium and 45 mins for well done. If you have a thick piece of meat, it may take a little longer. Ten mins before the end of cooking, stir the whole mushrooms around the pan, coating well in the oil and juices, then leave to roast alongside the meat and shallots. Leave the meat to rest on a board for 10-15 mins and keep the vegetables warm in a serving dish while you make the sauce.", "Place the tin back on the hob. Stir in the flour, mixing well into any oil in the pan, then very carefully pour over the brandy, making sure you dont pour straight from the bottle. Use a small whisk to stir in the brandy, scraping up all the lovely browned bits from the tin. When the brandy has nearly boiled away, pour over the strained mushroom liquid and beef stock. Cook for about 5 mins until the liquid just coats the back of a spoon, then stir in the mustard and creme frache. Season, sprinkle with parsley and pour into a gravy boat. Cut the beef into thick slices and serve with the vegetables, gravy and some Parmesan puffs, if you like."],
+    "author": "Annabell_",
+    "_ownerId": {
+      "$oid": "64d68630e89c2104805be3f7"
+    },
+    "__v": 0,
+    "createdAt":"2023-08-10"
   }
 ]
 

@@ -9,7 +9,9 @@ const {
     deleteById,
     getByUserId,
     getByCategorySortedByDate,
-    getLatestByLimit
+    getLatestByLimit,
+    getLatestByPagination,
+    getByCategorySortedByDateWithPagination
 } = require('../services/itemService');
 const { parseError } = require('../util/parser');
 
@@ -17,7 +19,7 @@ const { parseError } = require('../util/parser');
 dataController.get('/', async (req, res) => {
 
     let items = [];
-    if (req.query.where) {
+    if (req.query.where && req.query.page===undefined) {
 
         const where = req.query.where.split('=')[0]
 
@@ -25,13 +27,26 @@ dataController.get('/', async (req, res) => {
             const userId = JSON.parse(req.query.where.split('=')[1]);
             items = await getByUserId(userId);
         } else if (where === 'category') {
-
-            const category = JSON.parse(req.query.where.split('=')[1]);
-            items = await getByCategorySortedByDate(category);
+                const category = JSON.parse(req.query.where.split('=')[1]);
+                items = await getByCategorySortedByDate(category);
+            
         }
 
+    }else if(req.query.where && req.query.page !== undefined){
+        console.log(typeof req.query.perPage);
+        const category = JSON.parse(req.query.where.split('=')[1]);
+        console.log(category);
+        const page = parseInt(req.query.page) || 1;
+        console.log(page);
+        const perPage = parseInt(req.query.perPage) || 10;
+        console.log(typeof perPage);
+        items = await getByCategorySortedByDateWithPagination(category, page, perPage);
     } else if (req.query.limit) {
         items = await getLatestByLimit(req.query.limit)
+    } else if (req.query.page) {
+        const page = parseInt(req.query.page) || 1;
+        const perPage = parseInt(req.query.perPage) || 10;
+        items = await getLatestByPagination(page, perPage);
     } else {
         items = await getAll();
     }
