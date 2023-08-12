@@ -9,11 +9,46 @@ async function getByUserId(userId) {
     return Item.find({ _ownerId: userId });
 }
 
-async function getByCategorySortedByDate(category){
+async function getByCategorySortedByDate(category) {
     return Item.find({ category: category }).sort({ createdAt: -1 });
 }
-async function getLatestByLimit(limit){
+async function getLatestByLimit(limit) {
     return Item.find({}).sort({ createdAt: -1 }).limit(limit);
+}
+
+async function getLatestByPagination(page, perPage) {
+    const totalCount = await Item.countDocuments({});
+    const totalPages = Math.ceil(totalCount / perPage);
+    const skip = (page - 1) * perPage;
+
+    const items = await Item.find({})
+        .sort({ createdAt: -1 })
+        .skip(skip)
+        .limit(perPage);
+    return {
+        items,
+        currentPage: page,
+        totalPages,
+        totalCount
+    };
+}
+
+async function getByCategorySortedByDateWithPagination(category, page, perPage) {
+    const totalCount = await Item.countDocuments({ category });
+    const totalPages = Math.ceil(totalCount / perPage);
+    const skip = (page - 1) * perPage;
+
+    const items = await Item.find({ category })
+        .sort({ createdAt: -1 })
+        .skip(skip)
+        .limit(perPage);
+
+    return {
+        items,
+        currentPage: page,
+        totalPages,
+        totalCount
+    };
 }
 
 
@@ -40,7 +75,7 @@ async function update(id, item) {
     existing.imageUrl = item.imageUrl;
     existing.method = item.method;
 
-    
+
     return existing.save();
 }
 
@@ -57,5 +92,7 @@ module.exports = {
     update,
     deleteById,
     getByCategorySortedByDate,
-   getLatestByLimit
+    getLatestByLimit,
+    getLatestByPagination,
+    getByCategorySortedByDateWithPagination
 };

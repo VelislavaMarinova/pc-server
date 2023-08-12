@@ -3,7 +3,6 @@
     "$oid": "64bbe99f9eb6aa7f1a7e652d"
   },
   "catName": "drinks",
-  "catTitle": "Drinks and coctails",
   "imageUrl": "https://thegirlonbloor.com/wp-content/uploads/2021/07/Summer-Drinks-14-500x375.jpg",
   "__v": 0
 },
@@ -12,7 +11,6 @@
     "$oid": "64bbea019eb6aa7f1a7e652f"
   },
   "catName": "main-dishes",
-  "catTitle": "Main Dishes",
   "imageUrl": "https://sundaysuppermovement.com/wp-content/uploads/2021/05/summer-chicken-salad-featured.jpg",
   "__v": 0
 },
@@ -21,7 +19,6 @@
     "$oid": "64bbea3e9eb6aa7f1a7e6531"
   },
   "catName": "healthy-recipes",
-  "catTitle": "Healthy-recipes",
   "imageUrl": "https://images.everydayhealth.com/images/canned-tuna-recipes-that-are-good-for-you-00-intro-1440x810.jpg",
   "__v": 0
 },
@@ -30,7 +27,6 @@
     "$oid": "64bbea7b9eb6aa7f1a7e6533"
   },
   "catName": "quick-recipes",
-  "catTitle": "Quick-recipes",
   "imageUrl": "https://static01.nyt.com/images/2021/08/19/dining/24-easy-quick-dinner-recipes-1632175796332/24-easy-quick-dinner-recipes-1632175796332-superJumbo.jpg",
   "__v": 0
 },
@@ -39,7 +35,6 @@
     "$oid": "64bbeac59eb6aa7f1a7e6535"
   },
   "catName": "salads",
-  "catTitle": "Salads",
   "imageUrl": "https://assets.bonappetit.com/photos/6282c9214844aec731451f28/1:1/w_1920,c_limit/0622-Summer-Goddess-Chicken-Salad.jpg",
   "__v": 0
 },
@@ -48,7 +43,6 @@
     "$oid": "64bbeb129eb6aa7f1a7e6537"
   },
   "catName": "desserts",
-  "catTitle": "Desserts and sweets",
   "imageUrl": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2022/06/LINK-TRAFFIC-18-1200x675.jpg",
   "__v": 0
 }]
